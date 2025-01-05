@@ -1,0 +1,47 @@
+# Logs
+logs/
+*.log
+
+# Temporary system files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies
+node_modules/
+
+# Parcel, Webpack, or similar bundler output
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# Backup files created by text editors
+*.bak
+*.swp
+*.swo
+
+# Temporary files created by the browser or system
+*.temp
+*.tmp
+
+# Environment files
+.env
+.env.local
+
+# Fonts cache
+*.ttf.cache
+*.woff.cache
+
+# Ignore specific IDE or editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# SASS/SCSS cache
+.sass-cache/
+
+# Other
+*.orig
+*.bak~
+
