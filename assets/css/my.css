@@ -1,0 +1,54 @@
+.about .social-links {
+    margin-top: 15px; /* Add space between content and social links */
+    display: flex;
+    gap: 20px; /* Space between icons */
+    justify-content: flex-start; /* Align icons to the left */
+    margin-bottom: 10px; /* Add space between icons and the download button */
+  }
+  
+  .about .social-links a {
+    font-size: 2rem; /* Increased icon size */
+    color: #333; /* Dark color for default icon state */
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .about .social-links a.linkedin:hover {
+    color: #0077b5; /* LinkedIn blue */
+  }
+  
+  .about .social-links a.github:hover {
+    color: #000; /* GitHub black */
+  }
+  
+  .about .resume-button {
+    font-size: 0.85rem; /* Smaller font size for the button */
+    color: #fff !important; /* Ensure text color is white and not overridden */
+    background-color: #2d2d2d; /* Dark background to contrast with beige */
+    padding: 8px 12px; /* Adjust padding for a smaller button */
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; /* Center the text */
+    gap: 8px; /* Space between icon and text */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px; /* Space between the button and icons */
+    text-align: center; /* Center align text */
+  }
+  
+  .about .resume-button:hover {
+    background-color: #555; /* Slightly lighter on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
+  }
+  
+  .about .resume-button i {
+    font-size: 1rem; /* Size of the download icon */
+  }
+  
+  .about .social-links-container {
+    display: flex;
+    flex-direction: column; /* Stack the icons and the button */
+    align-items: flex-start; /* Align items to the left */
+    gap: 10px; /* Add space between icons and button */
+  }
+  

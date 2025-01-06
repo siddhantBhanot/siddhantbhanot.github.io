@@ -12,10 +12,18 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       rel="stylesheet"
     />
 
@@ -35,8 +43,9 @@
     />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-    <!-- Main CSS File -->
+    <!-- CSS Files -->
     <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/my.css" rel="stylesheet" />
 
     <!-- =======================================================
   * Template Name: DevFolio
@@ -61,12 +70,16 @@
         <nav id="navmenu" class="navmenu">
           <ul>
             <li>
-              <a href="#hero" class="active">Home<br /></a>
+              <a href="#home" class="active">Home<br /></a>
             </li>
             <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li class="dropdown">
+            <li><a href="#timeline">Timeline</a></li>
+            <li><a href="#portfolio">Experiences</a></li>
+            <li><a href="#skills-certifications">Skills & Certificates</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <!-- <li class="dropdown">
               <a href="#"
                 ><span>Dropdown</span>
                 <i class="bi bi-chevron-down toggle-dropdown"></i
@@ -90,8 +103,7 @@
                 <li><a href="#">Dropdown 3</a></li>
                 <li><a href="#">Dropdown 4</a></li>
               </ul>
-            </li>
-            <li><a href="#contact">Contact</a></li>
+            </li> -->
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -99,20 +111,20 @@
     </header>
 
     <main class="main">
-      <!-- Hero Section -->
-      <section id="hero" class="hero section dark-background">
-        <img src="assets/img/hero-img.jpg" alt="" data-aos="fade-in" />
+      <!-- Home Section -->
+      <section id="home" class="hero section dark-background">
+        <img src="assets/img/neural_net.gif" alt="" data-aos="fade-in" />
 
         <div
           class="container d-flex flex-column align-items-center justify-content-center text-center"
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          <h2>I am Morgan Freeman</h2>
+          <h2>Turning ideas into code, caffeine into productivity.</h2>
           <p>
             <span
               class="typed"
-              data-typed-items="Designer, Developer, Freelancer, Photographer"
+              data-typed-items="Coder, Problem Solver, Coffee Dependent Procrastinator, Always Learning"
             ></span>
           </p>
         </div>
@@ -127,20 +139,18 @@
               <div class="row justify-content-between gy-4">
                 <div class="col-lg-5">
                   <img
-                    src="assets/img/profile-img.jpg"
+                    src="assets/img/profile-img.png"
                     class="img-fluid"
                     alt=""
                   />
                 </div>
                 <div class="col-lg-7 about-info">
-                  <p><strong>Name: </strong> <span>Morgan Freeman</span></p>
+                  <p><strong>Name: </strong> <span>Siddhant Bhanot</span></p>
                   <p>
-                    <strong>Profile: </strong> <span>full stack developer</span>
+                    <strong>Email: </strong>
+                    <span>siddhantbhanot@gmail.com</span>
                   </p>
-                  <p>
-                    <strong>Email: </strong> <span>contact@example.com</span>
-                  </p>
-                  <p><strong>Phone: </strong> <span>(617) 557-0089</span></p>
+                  <p><strong>Phone: </strong> <span>+91 7838332124</span></p>
                 </div>
               </div>
 
@@ -240,10 +250,250 @@
           </div>
         </div>
       </section>
+
+      <section id="about" class="about section">
+        <div
+          class="container aos-init aos-animate"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="row gy-4">
+            <div class="col-md-6">
+              <div class="row justify-content-between gy-4">
+                <div class="col-lg-5">
+                  <img
+                    src="assets/img/profile-img.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-lg-7 about-info">
+                  <p><strong>Name: </strong> <span>Siddhant Bhanot</span></p>
+                  <p>
+                    <strong>Email: </strong
+                    ><span>siddhantbhanot@gmail.com</span>
+                  </p>
+                  <p><strong>Phone: </strong><span>+91 7838332124</span></p>
+                </div>
+              </div>
+              <div class="social-links-container">
+                <div class="social-links">
+                  <a
+                    href="https://www.linkedin.com/in/siddhantbhanot/"
+                    target="_blank"
+                    class="linkedin"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  <a
+                    href="https://github.com/siddhantBhanot/"
+                    target="_blank"
+                    class="github"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+                <a href="assets/resume.pdf" class="resume-button" download>
+                  <i class="fas fa-download"></i> Download Resume
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="about-me">
+                <h4>About me</h4>
+                <p>
+                  I’m Siddhant Bhanot, an enthusiast in coding and
+                  problem-solving. I pursued
+                  <strong>Information Technology</strong> at
+                  <a href="https://jaipur.manipal.edu/" target="_blank"
+                    >Manipal University Jaipur</a
+                  >, where I developed my foundation in technology.
+                </p>
+                <p>
+                  Currently, I work as a Senior Product Development Engineer at
+                  <a href="https://www.comviva.com" target="_blank">Comviva</a>,
+                  innovating telecom software, specifically contributing to the
+                  <strong>mBAS</strong> product. My work focuses on enhancing
+                  user experiences and optimizing mobile-based applications in
+                  the telecom space.
+                </p>
+                <p>
+                  Fascinated by <strong>Generative AI</strong>, my future goal
+                  is to understand and leverage AI technologies to create
+                  meaningful, impactful solutions that can make a difference in
+                  the world.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- /About Section -->
 
-      <!-- Resume Section -->
-      <section id="resume" class="resume section">
+      <!-- Timeline Section -->
+      <section id="timeline" class="resume section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Timeline</h2>
+          <p>Explore my academic background and professional experience</p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row">
+            <!-- Education Section -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="resume-title">Education</h3>
+              <div class="resume-item">
+                <h4>Bachelor of Technology in Information Technology</h4>
+                <h5>2018 - 2022</h5>
+                <p><em>Manipal University Jaipur</em></p>
+                <p>CGPA: 8.89/10</p>
+                <p>
+                  During my B.Tech, I developed a strong foundation in various
+                  domains of Information Technology, including:
+                </p>
+                <ul>
+                  <li>
+                    <strong>Programming and Data Structures:</strong> Gained
+                    hands-on experience with data structures, algorithms, and
+                    object-oriented programming concepts.
+                  </li>
+                  <li>
+                    <strong>Database Management Systems:</strong> Studied
+                    relational database concepts, SQL queries, and database
+                    design techniques.
+                  </li>
+                  <li>
+                    <strong>Computer Networks:</strong> Covered network
+                    protocols, OSI model, and hands-on networking lab work.
+                  </li>
+                  <li>
+                    <strong>Operating Systems:</strong> Learned about process
+                    management, memory management, and file systems.
+                  </li>
+                  <li>
+                    <strong>Software Engineering:</strong> Focused on software
+                    development life cycle, project management, and testing
+                    techniques.
+                  </li>
+                  <li>
+                    <strong>Artificial Intelligence:</strong> Explored heuristic
+                    search techniques and reasoning under uncertainty.
+                  </li>
+                  <li>
+                    <strong>Advanced Machine Learning Techniques:</strong>
+                    Covered ensemble methods, model optimization, and deep
+                    learning architectures.
+                  </li>
+                  <li>
+                    <strong>Regression Analysis and Forecasting:</strong>
+                    Focused on statistical modeling and predictive analysis to
+                    forecast trends.
+                  </li>
+                  <li>
+                    <strong>Natural Language Processing:</strong> Delved into
+                    tokenization, embedding techniques, and sentiment analysis.
+                  </li>
+                </ul>
+                <p>
+                  Additionally, I worked on several projects, including my minor
+                  project on Emotion Classification based on Hinglish Text, and
+                  participated in hackathons, technical events, and college
+                  fests to further hone my problem-solving and coding skills.
+                </p>
+              </div>
+
+              <!-- End Education Item -->
+            </div>
+
+            <!-- Professional Experience Section -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <h3 class="resume-title">Professional Experience</h3>
+
+              <div class="resume-item">
+                <h4>Senior Product Development Engineer</h4>
+                <h5>Dec 2023 - Present</h5>
+                <p>
+                  <em>Comviva, Gurugram, India</em>
+                </p>
+                <ul>
+                  <li>Implemented new client-specific APIs for the product.</li>
+                  <li>
+                    Developed a Spring Boot Microservice for generating
+                    Subscription Management reports in CSV format. Used Docker
+                    to containerize the application, ensuring efficient
+                    deployment and management.
+                  </li>
+                  <li>
+                    Facilitated onboarding of recent graduates by providing
+                    comprehensive knowledge transfer about the product; Mentored
+                    new joiners (ComCubs), conducting code reviews, and
+                    providing guidance on best practices.
+                  </li>
+                  <li>Tech Stack: Java SpringBoot, MySQL, Docker</li>
+                </ul>
+              </div>
+              <!-- End Senior Product Developer Item -->
+
+              <div class="resume-item">
+                <h4>Product Developer Engineer</h4>
+                <h5>Aug 2022 – Dec 2023</h5>
+                <p><em>Comviva, Gurugram, India | Product: mBAS</em></p>
+                <ul>
+                  <li>
+                    Worked on developing a GUI application for the product.
+                  </li>
+                  <li>
+                    Integrated Spring Security with JWT and client-specified
+                    LDAP authentication in the GUI.
+                  </li>
+                  <li>Documented the GUI APIs using Swagger.</li>
+                  <li>
+                    Wrote Selenium test scripts for GUI Frontend and Unit test
+                    cases for the backend, achieving 93% overall Code Coverage.
+                  </li>
+                  <li>
+                    Optimized the API response time in GUI by 70% - 100% using
+                    payload compression and pagination.
+                  </li>
+                  <li>
+                    Tech Stack: Java, SpringBoot, MySQL, Hibernate, JavaScript,
+                    HTML, CSS, RequireJS
+                  </li>
+                </ul>
+              </div>
+              <!-- End Product Developer Item -->
+
+              <div class="resume-item">
+                <h4>Product Developer Intern</h4>
+                <h5>Feb 2022 – Aug 2022</h5>
+                <p><em>Comviva, Gurugram, India | Product: mBAS</em></p>
+                <ul>
+                  <li>
+                    Worked on developing a GUI application for the product.
+                  </li>
+                  <li>
+                    Integrated Spring Security with JWT and client-specified
+                    LDAP authentication in the GUI.
+                  </li>
+                  <li>Documented the GUI APIs using Swagger.</li>
+                  <li>
+                    Wrote Selenium test scripts for GUI Frontend and Unit test
+                    cases for the backend, achieving 93% overall Code Coverage.
+                  </li>
+                </ul>
+              </div>
+              <!-- End Product Developer Intern Item -->
+            </div>
+            <!-- End Professional Experience Section -->
+          </div>
+        </div>
+      </section>
+
+      <section id="timeline" class="resume section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h2>Resume</h2>
@@ -257,109 +507,246 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title">Sumary</h3>
-
-              <div class="resume-item pb-0">
-                <h4>Brandon Johnson</h4>
-                <p>
-                  <em
-                    >Innovative and deadline-driven Graphic Designer with 3+
-                    years of experience designing and developing user-centered
-                    digital/print marketing material from initial concept to
-                    final, polished deliverable.</em
-                  >
-                </p>
-                <ul>
-                  <li>Portland par 127,Orlando, FL</li>
-                  <li>(123) 456-7891</li>
-                  <li>alice.barkley@example.com</li>
-                </ul>
-              </div>
-              <!-- Edn Resume Item -->
-
               <h3 class="resume-title">Education</h3>
               <div class="resume-item">
-                <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                <h5>2015 - 2016</h5>
-                <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                <p>
-                  Qui deserunt veniam. Et sed aliquam labore tempore sed
-                  quisquam iusto autem sit. Ea vero voluptatum qui ut
-                  dignissimos deleniti nerada porti sand markend
-                </p>
+                <h4>Bachelor of Technology in Information Technology</h4>
+                <h5>2018 - 2022</h5>
+                <p><em>Manipal University Jaipur</em></p>
+                <p>CGPA: 8.89/10</p>
+                <ul>
+                  <li>
+                    Core subjects included: Data Structures, Algorithms,
+                    Computer Networks, Databases, Operating Systems
+                  </li>
+                  <li>
+                    Electives included: Artificial Intelligence, Advanced
+                    Machine Learning Techniques, Regression Analysis and
+                    Forecasting, Natural Language Processing
+                  </li>
+                </ul>
               </div>
-              <!-- Edn Resume Item -->
-
-              <div class="resume-item">
-                <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                <h5>2010 - 2014</h5>
-                <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                <p>
-                  Quia nobis sequi est occaecati aut. Repudiandae et iusto quae
-                  reiciendis et quis Eius vel ratione eius unde vitae rerum
-                  voluptates asperiores voluptatem Earum molestiae consequatur
-                  neque etlon sader mart dila
-                </p>
-              </div>
-              <!-- Edn Resume Item -->
+              <!-- End Resume Item -->
             </div>
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
               <h3 class="resume-title">Professional Experience</h3>
-              <div class="resume-item">
-                <h4>Senior graphic design specialist</h4>
-                <h5>2019 - Present</h5>
-                <p><em>Experion, New York, NY </em></p>
-                <ul>
-                  <li>
-                    Lead in the design, development, and implementation of the
-                    graphic, layout, and production communication materials
-                  </li>
-                  <li>
-                    Delegate tasks to the 7 members of the design team and
-                    provide counsel on all aspects of the project.
-                  </li>
-                  <li>
-                    Supervise the assessment of all graphic materials in order
-                    to ensure quality and accuracy of the design
-                  </li>
-                  <li>
-                    Oversee the efficient use of production project budgets
-                    ranging from $2,000 - $25,000
-                  </li>
-                </ul>
-              </div>
-              <!-- Edn Resume Item -->
 
               <div class="resume-item">
-                <h4>Graphic design specialist</h4>
-                <h5>2017 - 2018</h5>
-                <p><em>Stepping Stone Advertising, New York, NY</em></p>
+                <h4>Senior Product Development Engineer</h4>
+                <h5>Dec 2023 - Present</h5>
+                <p><em>Comviva, Gurugram, India</em></p>
+                <p>
+                  <a
+                    href="https://www.comviva.com/products-solutions/digitech/bluemarble-bss/#growth"
+                    target="_blank"
+                    >Subscription Manager (SM)</a
+                  >
+                </p>
                 <ul>
                   <li>
-                    Developed numerous marketing programs (logos,
-                    brochures,infographics, presentations, and advertisements).
+                    Implemented new client-specific APIs for the Subscription
+                    Management product.
                   </li>
                   <li>
-                    Managed up to 5 projects or tasks at a given time while
-                    under pressure
+                    Developed a Spring Boot Microservice for generating
+                    Subscription Management reports in CSV format. Used Docker
+                    to containerize the application, ensuring efficient
+                    deployment and management.
                   </li>
                   <li>
-                    Recommended and consulted with clients on the most
-                    appropriate graphic design
+                    Facilitated onboarding of recent graduates by providing
+                    comprehensive knowledge transfer about the Subscription
+                    Management product; mentored new joiners (ComCubs),
+                    conducting code reviews, and providing guidance on best
+                    practices.
+                  </li>
+                </ul>
+                <p>
+                  <strong>Tech Stack:</strong> Java SpringBoot, MySQL, Docker
+                </p>
+              </div>
+              <!-- End Resume Item -->
+
+              <div class="resume-item">
+                <h4>Product Developer Engineer</h4>
+                <h5>Aug 2022 – Dec 2023</h5>
+                <p>
+                  <em
+                    >Comviva, Gurugram, India | Product:
+                    <a
+                      href="https://www.comviva.com/products-solutions/digitech/bluemarble-bss/#growth"
+                      target="_blank"
+                      >Subscription Manager (SM)</a
+                    ></em
+                  >
+                </p>
+                <ul>
+                  <li>
+                    Worked on developing a GUI application for the Subscription
+                    Management product.
                   </li>
                   <li>
-                    Created 4+ design presentations and proposals a month for
-                    clients and account managers
+                    Integrated Spring Security with JWT and client-specified
+                    LDAP authentication in the GUI.
+                  </li>
+                  <li>Documented the GUI APIs using Swagger.</li>
+                  <li>
+                    Wrote Selenium test scripts for GUI Frontend and Unit test
+                    cases for the backend, achieving 93% overall code coverage.
+                  </li>
+                  <li>
+                    Optimized the API response time in the GUI by 70% - 100%
+                    using payload compression and pagination.
+                  </li>
+                </ul>
+                <p>
+                  <strong>Tech Stack:</strong> Java, SpringBoot, MySQL,
+                  Hibernate, JavaScript, HTML, CSS, RequireJS
+                </p>
+              </div>
+              <!-- End Resume Item -->
+
+              <div class="resume-item">
+                <h4>Product Developer Intern</h4>
+                <h5>Feb 2022 – Aug 2022</h5>
+                <p>
+                  <em
+                    >Comviva, Gurugram, India | Product:
+                    <a
+                      href="https://www.comviva.com/products-solutions/digitech/bluemarble-bss/#growth"
+                      target="_blank"
+                      >Subscription Manager (SM)</a
+                    ></em
+                  >
+                </p>
+                <ul>
+                  <li>
+                    Worked on developing a GUI application for the Subscription
+                    Management product.
+                  </li>
+                  <li>
+                    Integrated Spring Security with JWT and client-specified
+                    LDAP authentication in the GUI.
+                  </li>
+                  <li>Documented the GUI APIs using Swagger.</li>
+                  <li>
+                    Wrote Selenium test scripts for GUI Frontend and Unit test
+                    cases for the backend, achieving 93% overall code coverage.
                   </li>
                 </ul>
               </div>
-              <!-- Edn Resume Item -->
+              <!-- End Resume Item -->
             </div>
           </div>
         </div>
       </section>
-      <!-- /Resume Section -->
+
+      <!-- /Timeline Section -->
+
+      <!-- Skill & Certificate section -->
+
+      <section id="skills-certifications" class="skills about section">
+        <div
+          class="container aos-init aos-animate"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="row gy-4">
+            <!-- Skills Section -->
+            <div class="col-md-6">
+              <div class="skills-info">
+                <h4>Skills</h4>
+                <div class="skill" style="margin-bottom: 15px">
+                  <span
+                    ><strong>Programming Languages:</strong> C++, Java,
+                    JavaScript, Python</span
+                  >
+                </div>
+                <div class="skill" style="margin-bottom: 15px">
+                  <span
+                    ><strong>Libraries and Frameworks:</strong> Spring Boot,
+                    Hibernate, Node JS, Express JS, React JS</span
+                  >
+                </div>
+                <div class="skill" style="margin-bottom: 15px">
+                  <span
+                    ><strong>Tools:</strong> Git, Apache JMeter, Selenium,
+                    Eclipse, Postman, Swagger</span
+                  >
+                </div>
+                <div class="skill" style="margin-bottom: 15px">
+                  <span><strong>Other:</strong> MySQL, Docker, Kubernetes</span>
+                </div>
+              </div>
+            </div>
+            <!-- End Skills Section -->
+
+            <!-- Certifications Section -->
+            <div class="col-md-6">
+              <h4>Certifications</h4>
+              <div class="skill" style="margin-bottom: 15px">
+                <span
+                  ><strong>Data Science Specialization:</strong> IBM
+                  <a
+                    href="https://www.coursera.org/account/accomplishments/specialization/certificate/QP5C8Y8TDRJ2"
+                    target="_blank"
+                    >[Link]</a
+                  >
+                </span>
+              </div>
+              <div class="skill" style="margin-bottom: 15px">
+                <span
+                  ><strong>TensorFlow in Practice Specialization:</strong> Deep
+                  Learning
+                  <a
+                    href="https://www.coursera.org/account/accomplishments/specialization/certificate/ZHFWNRPM6XQK"
+                    target="_blank"
+                    >[Link]</a
+                  >
+                </span>
+              </div>
+              <div class="skill" style="margin-bottom: 15px">
+                <span
+                  ><strong>Web Development Bootcamp:</strong> Dr. Angela Yu,
+                  Udemy
+                  <a
+                    href="https://www.udemy.com/certificate/UC-7518422a-7f4c-44ce-b8c8-ac3716212152/"
+                    target="_blank"
+                    >[Link]</a
+                  >
+                </span>
+              </div>
+              <div class="skill" style="margin-bottom: 15px">
+                <span
+                  ><strong>Python for Everybody Specialization:</strong>
+                  University of Michigan
+                  <a
+                    href="https://www.coursera.org/account/accomplishments/specialization/certificate/4AS3R9J5HXND"
+                    target="_blank"
+                    >[Link]</a
+                  >
+                </span>
+              </div>
+              <div class="skill" style="margin-bottom: 15px">
+                <span
+                  ><strong
+                    >Python Project: Pillow, Tesseract, and OpenCV:</strong
+                  >
+                  University of Michigan
+                  <a
+                    href="https://www.coursera.org/account/accomplishments/certificate/SF4S4LWJGH34"
+                    target="_blank"
+                    >[Link]</a
+                  >
+                </span>
+              </div>
+            </div>
+            <!-- End Certifications Section -->
+          </div>
+        </div>
+      </section>
+
+      <!-- /Skill & Certificate section -->
 
       <!-- Services Section -->
       <section id="services" class="services section">
