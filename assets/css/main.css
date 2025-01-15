@@ -1177,6 +1177,10 @@ section,
   padding-top: 10px;
 }
 
+.faq-content{
+  margin-right: 20px;
+}
+
 .faq .faq-container .faq-active .faq-toggle {
   transform: rotate(90deg);
   color: var(--accent-color);

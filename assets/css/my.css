@@ -127,3 +127,7 @@
     color: white;
   }
   
+
+  .display-flex{
+    display: flex;
+  }
