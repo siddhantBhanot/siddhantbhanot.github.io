@@ -142,7 +142,7 @@
 
   .black-element {
     background-color: #131315;
-    margin: 200px 200px; /* Default for larger screens */
+    margin: 50px 50px; /* Default for larger screens */
     font-size: 20px;
     font-weight: 500;
     font-family: "Inter" !important;
