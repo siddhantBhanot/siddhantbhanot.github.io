@@ -131,3 +131,44 @@
   .display-flex{
     display: flex;
   }
+
+  .rounded{
+    border-radius: 65px !important;
+  }
+
+  .rounded-less{
+    border-radius: 20px !important;
+  }
+
+  .black-element {
+    background-color: #131315;
+    margin: 200px 200px; /* Default for larger screens */
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter" !important;
+  }
+  
+  @media (max-width: 768px) {
+    .black-element {
+      margin: 0; /* No margin for smaller screens (phones) */
+    }
+  }
+
+#timeline h1,
+#timeline h2,
+#timeline h3,
+#timeline h4,
+#timeline h5,
+#timeline h6 {
+  font-family: inherit !important;
+}
+
+#achievements{
+  margin-top: 60px;
+}
+
+#skills-certifications{
+  font-size: 18px;
+}
+
+

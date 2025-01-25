@@ -26,7 +26,7 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color:#2B2B2B; /* Background color for the entire website, including individual sections */
+  --background-color:black; /* Background color for the entire website, including individual sections */
   --default-color: #4e4e4e; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #0a090f; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #0078ff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
@@ -457,7 +457,7 @@ h6 {
 .footer {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-size: 14px;
+  font-size: 18px;
   padding: 40px 0;
   position: relative;
 }
@@ -599,7 +599,7 @@ h6 {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -746,7 +746,7 @@ section,
 }
 
 .about .skills-content h5 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   margin: 30px 0 15px 0;
 }
@@ -807,7 +807,7 @@ section,
 }
 
 .about .about-me p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -830,7 +830,7 @@ section,
 
 .resume .resume-item h4 {
   line-height: 18px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
@@ -900,13 +900,13 @@ section,
 .services .service-item h3 {
   font-weight: 700;
   margin: 10px 0 15px 0;
-  font-size: 22px;
+  font-size: 20px;
   transition: ease-in-out 0.3s;
 }
 
 .services .service-item p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 0;
 }
 
@@ -1011,7 +1011,7 @@ section,
 
 @media (max-width: 575px) {
   .portfolio .portfolio-filters li {
-    font-size: 14px;
+    font-size: 18px;
     margin: 0 5px;
   }
 }
@@ -1033,14 +1033,14 @@ section,
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   padding-right: 50px;
 }
 
 .portfolio .portfolio-item .portfolio-info p {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 0;
   padding-right: 50px;
 }
@@ -1089,7 +1089,7 @@ section,
 
 .pricing .pricing-item h4 {
   margin: 0;
-  font-size: 18px;
+  font-size: 20px;
   color: var(--accent-color);
 }
 
@@ -1121,7 +1121,7 @@ section,
 
 .faq .faq-container .faq-item h3 {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
   margin: 0 30px 0 0;
   transition: 0.3s;
@@ -1240,7 +1240,7 @@ section,
 }
 
 .testimonials .testimonial-item h4 {
-  font-size: 14px;
+  font-size: 18px;
   margin: 0 0 15px 0;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
@@ -1332,7 +1332,7 @@ section,
 }
 
 .contact .info-item h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   margin: 0 0 2px 0;
 }
@@ -1340,7 +1340,7 @@ section,
 .contact .info-item p {
   padding: 0;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .contact .info-item:hover i {
@@ -1363,7 +1363,7 @@ section,
 .contact .php-email-form input[type=text],
 .contact .php-email-form input[type=email],
 .contact .php-email-form textarea {
-  font-size: 14px;
+  font-size: 18px;
   padding: 10px 15px;
   box-shadow: none;
   border-radius: 0;
@@ -1458,7 +1458,7 @@ section,
 }
 
 .portfolio-details .portfolio-info h3 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -1492,7 +1492,7 @@ section,
   text-transform: uppercase;
   font-weight: 400;
   color: color-mix(in srgb, var(--default-color), transparent 50%);
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .portfolio-details .portfolio-info .btn-visit {
@@ -1533,14 +1533,14 @@ section,
 }
 
 .portfolio-details .portfolio-description .testimonial-item h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   margin: 15px 0 5px 0;
   padding-top: 20px;
 }
 
 .portfolio-details .portfolio-description .testimonial-item h4 {
-  font-size: 14px;
+  font-size: 18px;
   color: #6c757d;
   margin: 0;
 }
