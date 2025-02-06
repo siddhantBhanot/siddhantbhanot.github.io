@@ -19,6 +19,15 @@
   .about .social-links a.github:hover {
     color: #000; /* GitHub black */
   }
+
+
+/* Optional: Adjust the size of the icon */
+.leetcode-icon {
+    width: 34px;
+    height: 34px;
+    margin-bottom: 5px;
+}
+
   
   .about .resume-button {
     font-size: 0.85rem; /* Smaller font size for the button */
